@@ -1,0 +1,9 @@
+on:
+  push:
+    branches: [mainline]
+
+jobs:
+  CheckIt:
+    steps:
+      - name: TheCheck
+        run: echo "Hello world"
