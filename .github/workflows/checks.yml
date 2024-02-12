@@ -4,6 +4,7 @@ on:
 
 jobs:
   CheckIt:
+    runs-on: ubuntu-latest
     steps:
       - name: TheCheck
         run: echo "Hello world"
